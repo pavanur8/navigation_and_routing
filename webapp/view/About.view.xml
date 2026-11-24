@@ -1,0 +1,19 @@
+<mvc:View
+    controllerName="com.pavan.app.navigationandrouting.controller.About"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="AboutPage"
+        title="About Page"
+        backgroundDesign="Transparent"
+    >
+        <Button
+            text="Back To Home"
+            icon="sap-icon://arrow-left"
+            iconFirst="true"
+            class="backButton1"
+            press="onNavigateToHomePage"
+        />
+    </Page>
+</mvc:View>

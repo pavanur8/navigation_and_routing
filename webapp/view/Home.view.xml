@@ -1,0 +1,36 @@
+<mvc:View
+    controllerName="com.pavan.app.navigationandrouting.controller.Home"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:f="sap.f"
+    xmlns:card="sap.f.cards"
+    height="100%"
+    displayBlock="true"
+>
+    <Page
+        id="page"
+        title="Home Page"
+        backgroundDesign="Transparent"
+    >
+        <Button
+            text="Navigate To About"
+            icon="sap-icon://arrow-right"
+            iconFirst="false"
+            class="backButton"
+            press="onNavigateToAboutPage"
+        />
+
+        	<VBox class="sapUiMediumMarginBeginEnd">
+                <Panel headerText="Welcome, To SAP UI5">
+                    <VBox>
+                        <Text text="Welcome to SAP UI5!" />
+                        <HBox>
+                            <Button icon="sap-icon://action-settings" text="Settings" />
+                            <Button icon="sap-icon://activity-individual" text="Activity Log" />
+                        </HBox>
+                    </VBox>
+                </Panel>
+			</VBox>
+        
+    </Page>
+</mvc:View>

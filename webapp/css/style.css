@@ -1,0 +1,12 @@
+/* Enter your custom styles here */
+.backButton .sapMBtnIcon {
+    color: darkorange !important;
+}
+
+.backButton1 .sapMBtnIcon {
+    color: red !important;
+}
+
+.heroBannerWhiteText {
+	color: var(--sapTextInvertedColor);
+}

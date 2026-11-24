@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "empId": "E101",
+      "name": "John",
+      "designation": "SAP UI5 Developer",
+      "department": "IT",
+      "salary": 60000,
+      "location": "Chennai"
+    },
+    {
+      "empId": "E102",
+      "name": "Mary",
+      "designation": "Tester",
+      "department": "QA",
+      "salary": 45000,
+      "location": "Bangalore"
+    },
+    {
+      "empId": "E103",
+      "name": "David",
+      "designation": "Project Manager",
+      "department": "Management",
+      "salary": 90000,
+      "location": "Hyderabad"
+    },
+    {
+      "empId": "E104",
+      "name": "Asha",
+      "designation": "SAP ABAP Developer",
+      "department": "IT",
+      "salary": 70000,
+      "location": "Mumbai"
+    }
+  ]
+}

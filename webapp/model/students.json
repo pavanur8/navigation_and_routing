@@ -1,0 +1,40 @@
+{
+  "students": [
+    {
+      "studentId": "S101",
+      "name": "Arun",
+      "age": 20,
+      "course": "B.Tech",
+      "department": "Computer Science",
+      "marks": 85,
+      "city": "Chennai"
+    },
+    {
+      "studentId": "S102",
+      "name": "Priya",
+      "age": 21,
+      "course": "B.Sc",
+      "department": "Mathematics",
+      "marks": 90,
+      "city": "Madurai"
+    },
+    {
+      "studentId": "S103",
+      "name": "Rahul",
+      "age": 22,
+      "course": "B.Com",
+      "department": "Commerce",
+      "marks": 75,
+      "city": "Coimbatore"
+    },
+    {
+      "studentId": "S104",
+      "name": "Sneha",
+      "age": 20,
+      "course": "BCA",
+      "department": "Computer Applications",
+      "marks": 88,
+      "city": "Salem"
+    }
+  ]
+}
